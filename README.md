@@ -1,8 +1,8 @@
-# DE-METER
--------------------
+# DE-METER: Calculate Dynamic Energy Consumption Using RAPL Meter 
 
-Arsalan Shahid, Muhammad Fahad <br />
-({arsalan.shahid,muhammaad.fahad}@ucdconnect.ie) <br />
+Arsalan Shahid and Muhammad Fahad <br />
+
+<arsalan.shahid@ucdconnect.ie>
 
 DE-METER is a wrapper using Likwid tool to calculate the dynamic energy consumption of CPU <br />
 and DRAM using RAPL within a given statistical confidence interval for any given application. <br />
