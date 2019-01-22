@@ -138,23 +138,3 @@ if (arguments == 4):
     print("Iterations Done: %i"% (iter), "Max Iterations: %i\
 "% (iterations), "Base Power: %f"% meanEnergy, "Varience: %.2f"% varience)
     
-"""
-f=open('PMCs_sleep_3',"r")
-lines=f.readlines()
-result=[]
-for x in lines:
-    result.append(x.split(' ')[1])
-f.close()
-
-print(result)
-
-
-size = 12000
-while (size <= 12000):
-    # Specify application here
-    application = "numactl --physcpubind=0-43 DGEMM/dgemm.sh %s 1"%(size)
-    command = "%s -c %s -g %s,%s %s\
-"%(likwid,cores,energyPmcs,applicationSpecPmcs,application)
-    os.system(command)
-    size += 10000
-"""
