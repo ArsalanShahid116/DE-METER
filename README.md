@@ -2,7 +2,7 @@
 
 Arsalan Shahid and Muhammad Fahad <br />
 
-<arsalan.shahid@ucdconnect.ie>
+e-mail: <arsalan.shahid@ucdconnect.ie>
 
 DE-METER is a wrapper using Likwid tool to calculate the dynamic energy consumption of CPU <br />
 and DRAM using RAPL within a given statistical confidence interval for any given application. <br />
