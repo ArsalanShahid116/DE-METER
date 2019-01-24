@@ -10,12 +10,10 @@ e-mail: <arsalan.shahid@ucdconnect.ie>
 
 ### Required Software
 ---------------------
-1. C+ compiler
-2. cmake
-3. GNU Scientific Library (GSL)
-5. MKL
-6. Likwid tool
-7. Pyhton compiler
+
+1. Likwid tool
+2. Pyhton compiler
+3. Linux Ubuntu 16.04 and above
 
 ### How to Use
 --------------
@@ -37,8 +35,7 @@ python get_base.py 5 100 1 1
 Get total power of server running an application using:
 
 ```
-python ./get_total_energy.py <desired_varience (1-100)> <max_iterations> \
-<desired_std (e.g. 10)> <verbosity (1 || 2)> <application>
+python ./get_total_energy.py <desired_varience (1-100)> <max_iterations> <desired_std (e.g. 10)> <verbosity (1 || 2)> <application>
 
 python ./get_total_energy.py 5 100 10 1 ./app
 ```
