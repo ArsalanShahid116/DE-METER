@@ -92,8 +92,6 @@ varience = 0.0
 likwid = "likwid-perfctr -f"
 cores = "0-43" # specify core to monitor PMCs
 energyPmcs = "PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3"
-applicationSpecPmcs = "FP_ARITH_INST_RETIRED_DOUBLE:PMC0,MEM_LOAD_RETI\
-RED_L3_MISS:PMC3"
 
 #######################################################################
 # Collect PMCs and calculate base power
@@ -102,8 +100,8 @@ RED_L3_MISS:PMC3"
 while (iter < iterations):
     # Sleep system for one second
     application = "sleep 1"
-    runLikwid = "%s -c %s -g %s,%s %s >> sleep_%s"%(likwid,cores, \
-    energyPmcs,applicationSpecPmcs,application,iter)
+    runLikwid = "%s -c %s -g %s %s >> sleep_%s"%(likwid,cores, \
+    energyPmcs,application,iter)
     os.system(runLikwid)
     # Extract PMCs from Likwid output file
     extractPmcs = "./extract.sh sleep_%s"%(iter)
