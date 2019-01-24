@@ -61,7 +61,7 @@ os.system("rm MeanTime TotalEnergy BasePower")
 application = " "
 arguments = len(sys.argv)
 if (arguments != 2):
-    print("\n Execute: \n # python ./get_dynamic_energy <application>")
+    print("\n Execute: \n # python ./get_dynamic_energy.py <application>")
 else:
     application = str(sys.argv[1])
 
