@@ -66,7 +66,7 @@ application = " "
 
 arguments = len(sys.argv)
 if (arguments != 6):
-    print("\n Execute: \n # python ./get_energy <desired_varience (1-\
+    print("\n Execute: \n # python ./get_total_energy.py <desired_varience (1-\
 100)> <max_iterations> <desired_std (e.g. 10)> <verbosity (1 || 2)> <\
 application>")
 else:
