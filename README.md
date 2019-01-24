@@ -7,15 +7,41 @@ confidence interval for any given application. <br />
 Arsalan Shahid and Muhammad Fahad <br />
 e-mail: <arsalan.shahid@ucdconnect.ie>
 
+
+### Required Software
+---------------------
+1. C+ compiler
+2. cmake
+3. GNU Scientific Library (GSL)
+5. MKL
+6. Likwid tool
+7. Pyhton compiler
+
 ### How to Use
 --------------
-For getting dynamic energy consumption of any given application, specify  <br />
-the application in 'run_application.py' script and run using:   <br />
+For getting dynamic energy consumption of any given application using default  <br />
+settings, specify the application in 'run_application.py' script and run  <br />
+using following command:
 
 ```
-python run_application.py
+python ./get_dynamic_energy <application>
 ```
 
+Get base power of server using:
+
+```
+python get_base.py <desired_varience (1-100)> <max_iterations> <verbosity (1 || 2)>
+python get_base.py 5 100 1 1
+```
+
+Get total power of server running an application using:
+
+```
+python ./get_total_energy.py <desired_varience (1-100)> <max_iterations> \
+<desired_std (e.g. 10)> <verbosity (1 || 2)> <application>
+
+python ./get_total_energy.py 5 100 10 1 ./app
+```
 ### License
 ------------
 Copyright 2001-2018 Heterogeneous Computing Laboratory, <br />
