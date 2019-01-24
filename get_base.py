@@ -63,7 +63,7 @@ varDesired = 0
 verbosity = 0
 arguments = len(sys.argv)
 if (arguments != 4):
-    print("\n Execute: \n # python ./get_energy <desired_varience (1-\
+    print("\n Execute: \n # python get_base.py <desired_varience (1-\
 100)> <max_iterations> <verbosity (1 || 2)")
 else:
     varDesired = float(sys.argv[1])
