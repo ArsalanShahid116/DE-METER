@@ -7,6 +7,15 @@ confidence interval for any given application. <br />
 Arsalan Shahid and Muhammad Fahad <br />
 e-mail: <arsalan.shahid@ucdconnect.ie>
 
+### How to Use
+--------------
+For getting dynamic energy consumption of any given application, specify  <br />
+the application in 'run_application.py' script and run using:   <br />
+
+```
+python run_application.py
+```
+
 ### License
 ------------
 Copyright 2001-2018 Heterogeneous Computing Laboratory, <br />
