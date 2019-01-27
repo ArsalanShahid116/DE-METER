@@ -13,7 +13,7 @@ e-mail: <arsalan.shahid@ucdconnect.ie>
 
 1. Likwid tool
 2. Pyhton compiler
-3. Linux Ubuntu 16.04 and above
+3. Linux Debian or Cent OS
 
 ### How to Use
 --------------
